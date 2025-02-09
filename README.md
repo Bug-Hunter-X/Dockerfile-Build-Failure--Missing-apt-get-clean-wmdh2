@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: the omission of `apt-get clean` after installing packages.  This can lead to build failures or unexpected behavior due to cached dependencies. The solution shows how to include `apt-get clean` to resolve these issues.
